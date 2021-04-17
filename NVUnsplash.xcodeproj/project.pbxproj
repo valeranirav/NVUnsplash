@@ -1,0 +1,1052 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C05F716BD646CCAD6C69E2F /* Pods_NVUnsplash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88C579CD373FF9417D7EC858 /* Pods_NVUnsplash.framework */; };
+		4D7152E62615DC4B00B17513 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7152E52615DC4B00B17513 /* AppDelegate.swift */; };
+		4D7152E82615DC4B00B17513 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7152E72615DC4B00B17513 /* SceneDelegate.swift */; };
+		4D7152ED2615DC4B00B17513 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D7152EB2615DC4B00B17513 /* Main.storyboard */; };
+		4D7152EF2615DC4F00B17513 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D7152EE2615DC4F00B17513 /* Assets.xcassets */; };
+		4D7152F22615DC4F00B17513 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D7152F02615DC4F00B17513 /* LaunchScreen.storyboard */; };
+		4D7152FD2615DC4F00B17513 /* NVUnsplashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7152FC2615DC4F00B17513 /* NVUnsplashTests.swift */; };
+		4D7153082615DC4F00B17513 /* NVUnsplashUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7153072615DC4F00B17513 /* NVUnsplashUITests.swift */; };
+		4D7153372615DFCE00B17513 /* NVError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7153362615DFCE00B17513 /* NVError.swift */; };
+		4D71533C2615E02500B17513 /* NVParserHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D71533B2615E02500B17513 /* NVParserHelper.swift */; };
+		4D7153412615E12600B17513 /* NVRequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7153402615E12600B17513 /* NVRequestFactory.swift */; };
+		4D7153462615E14B00B17513 /* NVRequestService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7153452615E14B00B17513 /* NVRequestService.swift */; };
+		4D71534B2615E16B00B17513 /* NVRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D71534A2615E16B00B17513 /* NVRequestHandler.swift */; };
+		4D7153502615E1D100B17513 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D71534F2615E1D100B17513 /* Reachability.swift */; };
+		4D7153552615E2FF00B17513 /* NVPhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7153542615E2FF00B17513 /* NVPhotoModel.swift */; };
+		4D71535E2615E43D00B17513 /* NVPhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D71535D2615E43D00B17513 /* NVPhotoCell.swift */; };
+		4D7153662615E53F00B17513 /* NVDynamicValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7153652615E53F00B17513 /* NVDynamicValue.swift */; };
+		4D71536B2615E55A00B17513 /* NVGenericDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D71536A2615E55A00B17513 /* NVGenericDataSource.swift */; };
+		4D7153702615E58700B17513 /* NVPhotoDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D71536F2615E58700B17513 /* NVPhotoDataSource.swift */; };
+		4D7153782615E63600B17513 /* NVPhotoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7153772615E63600B17513 /* NVPhotoViewModel.swift */; };
+		4D71537D2615E68500B17513 /* NVPhotoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D71537C2615E68500B17513 /* NVPhotoService.swift */; };
+		4D7153822615E73300B17513 /* NVPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7153812615E73300B17513 /* NVPhotoViewController.swift */; };
+		4D7153872615EE2100B17513 /* NVAlbumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7153862615EE2100B17513 /* NVAlbumCell.swift */; };
+		4D71538C2615EF1B00B17513 /* NVAlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D71538B2615EF1B00B17513 /* NVAlbumViewController.swift */; };
+		4D7153912615EFF600B17513 /* NVAlbumModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7153902615EFF600B17513 /* NVAlbumModel.swift */; };
+		4D7153962615F11800B17513 /* NVAlbumDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7153952615F11800B17513 /* NVAlbumDataSource.swift */; };
+		4D71539B2615F2F300B17513 /* NVAlbumViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D71539A2615F2F300B17513 /* NVAlbumViewModel.swift */; };
+		4D7153A02615F33300B17513 /* NVAlbumService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D71539F2615F33300B17513 /* NVAlbumService.swift */; };
+		4D7B4B782615F9C100934C00 /* NVAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7B4B772615F9C100934C00 /* NVAlertController.swift */; };
+		4D7B4B7D2616335E00934C00 /* NVConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7B4B7C2616335E00934C00 /* NVConstants.swift */; };
+		4D7B4B8E2616E76200934C00 /* NVAlbumViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7B4B8D2616E76200934C00 /* NVAlbumViewControllerDelegate.swift */; };
+		4D7B4B962616E77B00934C00 /* NVPhotoViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7B4B952616E77B00934C00 /* NVPhotoViewControllerDelegate.swift */; };
+		4D7B4B9C2617085700934C00 /* NVPhotoServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7B4B9B2617085700934C00 /* NVPhotoServiceTests.swift */; };
+		4D7B4BA62617096F00934C00 /* NVParserHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7B4BA52617096F00934C00 /* NVParserHelperTests.swift */; };
+		4D7B4BB326170A9100934C00 /* NVPhotoDataSourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7B4BB226170A9100934C00 /* NVPhotoDataSourceTests.swift */; };
+		4D7B4BB926170B7E00934C00 /* NVPhotoViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7B4BB826170B7E00934C00 /* NVPhotoViewModelTests.swift */; };
+		4D7B4BC826170BBA00934C00 /* photo_mock.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D7B4BC726170BBA00934C00 /* photo_mock.json */; };
+		4D7B4BD226170C5300934C00 /* NVPhotoServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7B4BD126170C5300934C00 /* NVPhotoServiceMock.swift */; };
+		4D7B4BDB26170CD800934C00 /* NVAlbumServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7B4BDA26170CD800934C00 /* NVAlbumServiceMock.swift */; };
+		4D7B4BE326170D7D00934C00 /* NVPhotoViewModelMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7B4BE226170D7D00934C00 /* NVPhotoViewModelMock.swift */; };
+		4D7B4BE826170E3700934C00 /* NVAlbumViewModelMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7B4BE726170E3700934C00 /* NVAlbumViewModelMock.swift */; };
+		4D7B4BED26170EB600934C00 /* NVPhotoViewControllerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7B4BEC26170EB600934C00 /* NVPhotoViewControllerMock.swift */; };
+		4D7B4BF226170F2100934C00 /* NVAlbumViewControllerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7B4BF126170F2100934C00 /* NVAlbumViewControllerMock.swift */; };
+		4D7B4BF726171BE900934C00 /* NVAlbumViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7B4BF626171BE900934C00 /* NVAlbumViewModelTests.swift */; };
+		4D7B4BFC2617200D00934C00 /* NVAlbumServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7B4BFB2617200D00934C00 /* NVAlbumServiceTests.swift */; };
+		95B67F112B912A76684C00CF /* Pods_NVUnsplashTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90515E247BA845B0052BEB40 /* Pods_NVUnsplashTests.framework */; };
+		D74D48514A622158E6A05E5E /* Pods_NVUnsplash_NVUnsplashUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0BE804ACFE3293B1C240C47 /* Pods_NVUnsplash_NVUnsplashUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D7152F92615DC4F00B17513 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D7152DA2615DC4B00B17513 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D7152E12615DC4B00B17513;
+			remoteInfo = NVUnsplash;
+		};
+		4D7153042615DC4F00B17513 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D7152DA2615DC4B00B17513 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D7152E12615DC4B00B17513;
+			remoteInfo = NVUnsplash;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15F37F827956B0853176C3EE /* Pods-NVUnsplashTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NVUnsplashTests.release.xcconfig"; path = "Target Support Files/Pods-NVUnsplashTests/Pods-NVUnsplashTests.release.xcconfig"; sourceTree = "<group>"; };
+		20F41EFB91F686FEE84E68DD /* Pods-NVUnsplash.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NVUnsplash.release.xcconfig"; path = "Target Support Files/Pods-NVUnsplash/Pods-NVUnsplash.release.xcconfig"; sourceTree = "<group>"; };
+		4D7152E22615DC4B00B17513 /* NVUnsplash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NVUnsplash.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D7152E52615DC4B00B17513 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4D7152E72615DC4B00B17513 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4D7152EC2615DC4B00B17513 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D7152EE2615DC4F00B17513 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D7152F12615DC4F00B17513 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D7152F32615DC4F00B17513 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D7152F82615DC4F00B17513 /* NVUnsplashTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NVUnsplashTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D7152FC2615DC4F00B17513 /* NVUnsplashTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NVUnsplashTests.swift; sourceTree = "<group>"; };
+		4D7152FE2615DC4F00B17513 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D7153032615DC4F00B17513 /* NVUnsplashUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NVUnsplashUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D7153072615DC4F00B17513 /* NVUnsplashUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NVUnsplashUITests.swift; sourceTree = "<group>"; };
+		4D7153092615DC4F00B17513 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D7153362615DFCE00B17513 /* NVError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NVError.swift; sourceTree = "<group>"; };
+		4D71533B2615E02500B17513 /* NVParserHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NVParserHelper.swift; sourceTree = "<group>"; };
+		4D7153402615E12600B17513 /* NVRequestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NVRequestFactory.swift; sourceTree = "<group>"; };
+		4D7153452615E14B00B17513 /* NVRequestService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NVRequestService.swift; sourceTree = "<group>"; };
+		4D71534A2615E16B00B17513 /* NVRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NVRequestHandler.swift; sourceTree = "<group>"; };
+		4D71534F2615E1D100B17513 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		4D7153542615E2FF00B17513 /* NVPhotoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NVPhotoModel.swift; sourceTree = "<group>"; };
+		4D71535D2615E43D00B17513 /* NVPhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NVPhotoCell.swift; sourceTree = "<group>"; };
+		4D7153652615E53F00B17513 /* NVDynamicValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NVDynamicValue.swift; sourceTree = "<group>"; };
+		4D71536A2615E55A00B17513 /* NVGenericDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NVGenericDataSource.swift; sourceTree = "<group>"; };
+		4D71536F2615E58700B17513 /* NVPhotoDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NVPhotoDataSource.swift; sourceTree = "<group>"; };
+		4D7153772615E63600B17513 /* NVPhotoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NVPhotoViewModel.swift; sourceTree = "<group>"; };
+		4D71537C2615E68500B17513 /* NVPhotoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NVPhotoService.swift; sourceTree = "<group>"; };
+		4D7153812615E73300B17513 /* NVPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NVPhotoViewController.swift; sourceTree = "<group>"; };
+		4D7153862615EE2100B17513 /* NVAlbumCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NVAlbumCell.swift; sourceTree = "<group>"; };
+		4D71538B2615EF1B00B17513 /* NVAlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NVAlbumViewController.swift; sourceTree = "<group>"; };
+		4D7153902615EFF600B17513 /* NVAlbumModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NVAlbumModel.swift; sourceTree = "<group>"; };
+		4D7153952615F11800B17513 /* NVAlbumDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NVAlbumDataSource.swift; sourceTree = "<group>"; };
+		4D71539A2615F2F300B17513 /* NVAlbumViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NVAlbumViewModel.swift; sourceTree = "<group>"; };
+		4D71539F2615F33300B17513 /* NVAlbumService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NVAlbumService.swift; sourceTree = "<group>"; };
+		4D7B4B772615F9C100934C00 /* NVAlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NVAlertController.swift; sourceTree = "<group>"; };
+		4D7B4B7C2616335E00934C00 /* NVConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NVConstants.swift; sourceTree = "<group>"; };
+		4D7B4B8D2616E76200934C00 /* NVAlbumViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NVAlbumViewControllerDelegate.swift; sourceTree = "<group>"; };
+		4D7B4B952616E77B00934C00 /* NVPhotoViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NVPhotoViewControllerDelegate.swift; sourceTree = "<group>"; };
+		4D7B4B9B2617085700934C00 /* NVPhotoServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NVPhotoServiceTests.swift; sourceTree = "<group>"; };
+		4D7B4BA52617096F00934C00 /* NVParserHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NVParserHelperTests.swift; sourceTree = "<group>"; };
+		4D7B4BB226170A9100934C00 /* NVPhotoDataSourceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NVPhotoDataSourceTests.swift; sourceTree = "<group>"; };
+		4D7B4BB826170B7E00934C00 /* NVPhotoViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NVPhotoViewModelTests.swift; sourceTree = "<group>"; };
+		4D7B4BC726170BBA00934C00 /* photo_mock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = photo_mock.json; sourceTree = "<group>"; };
+		4D7B4BD126170C5300934C00 /* NVPhotoServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NVPhotoServiceMock.swift; sourceTree = "<group>"; };
+		4D7B4BDA26170CD800934C00 /* NVAlbumServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NVAlbumServiceMock.swift; sourceTree = "<group>"; };
+		4D7B4BE226170D7D00934C00 /* NVPhotoViewModelMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NVPhotoViewModelMock.swift; sourceTree = "<group>"; };
+		4D7B4BE726170E3700934C00 /* NVAlbumViewModelMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NVAlbumViewModelMock.swift; sourceTree = "<group>"; };
+		4D7B4BEC26170EB600934C00 /* NVPhotoViewControllerMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NVPhotoViewControllerMock.swift; sourceTree = "<group>"; };
+		4D7B4BF126170F2100934C00 /* NVAlbumViewControllerMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NVAlbumViewControllerMock.swift; sourceTree = "<group>"; };
+		4D7B4BF626171BE900934C00 /* NVAlbumViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NVAlbumViewModelTests.swift; sourceTree = "<group>"; };
+		4D7B4BFB2617200D00934C00 /* NVAlbumServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NVAlbumServiceTests.swift; sourceTree = "<group>"; };
+		6949668C38205C83D85647F3 /* Pods-NVUnsplash.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NVUnsplash.debug.xcconfig"; path = "Target Support Files/Pods-NVUnsplash/Pods-NVUnsplash.debug.xcconfig"; sourceTree = "<group>"; };
+		88C579CD373FF9417D7EC858 /* Pods_NVUnsplash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NVUnsplash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90515E247BA845B0052BEB40 /* Pods_NVUnsplashTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NVUnsplashTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0BE804ACFE3293B1C240C47 /* Pods_NVUnsplash_NVUnsplashUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NVUnsplash_NVUnsplashUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C86C48561D9E583F2143A044 /* Pods-NVUnsplashTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NVUnsplashTests.debug.xcconfig"; path = "Target Support Files/Pods-NVUnsplashTests/Pods-NVUnsplashTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C94FF7A6574F11E25DAA56D0 /* Pods-NVUnsplash-NVUnsplashUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NVUnsplash-NVUnsplashUITests.release.xcconfig"; path = "Target Support Files/Pods-NVUnsplash-NVUnsplashUITests/Pods-NVUnsplash-NVUnsplashUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F6D2F88E1CCE95E58EF93B16 /* Pods-NVUnsplash-NVUnsplashUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NVUnsplash-NVUnsplashUITests.debug.xcconfig"; path = "Target Support Files/Pods-NVUnsplash-NVUnsplashUITests/Pods-NVUnsplash-NVUnsplashUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D7152DF2615DC4B00B17513 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C05F716BD646CCAD6C69E2F /* Pods_NVUnsplash.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D7152F52615DC4F00B17513 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95B67F112B912A76684C00CF /* Pods_NVUnsplashTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D7153002615DC4F00B17513 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D74D48514A622158E6A05E5E /* Pods_NVUnsplash_NVUnsplashUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C48B1672CC99D60D62F010D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88C579CD373FF9417D7EC858 /* Pods_NVUnsplash.framework */,
+				C0BE804ACFE3293B1C240C47 /* Pods_NVUnsplash_NVUnsplashUITests.framework */,
+				90515E247BA845B0052BEB40 /* Pods_NVUnsplashTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D7152D92615DC4B00B17513 = {
+			isa = PBXGroup;
+			children = (
+				4D7152E42615DC4B00B17513 /* NVUnsplash */,
+				4D7152FB2615DC4F00B17513 /* NVUnsplashTests */,
+				4D7153062615DC4F00B17513 /* NVUnsplashUITests */,
+				4D7152E32615DC4B00B17513 /* Products */,
+				ADFD42DE9AD080F618A644E3 /* Pods */,
+				2C48B1672CC99D60D62F010D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4D7152E32615DC4B00B17513 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D7152E22615DC4B00B17513 /* NVUnsplash.app */,
+				4D7152F82615DC4F00B17513 /* NVUnsplashTests.xctest */,
+				4D7153032615DC4F00B17513 /* NVUnsplashUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D7152E42615DC4B00B17513 /* NVUnsplash */ = {
+			isa = PBXGroup;
+			children = (
+				4D7B4B7C2616335E00934C00 /* NVConstants.swift */,
+				4D71531C2615DD1000B17513 /* Helper */,
+				4D7153192615DCDD00B17513 /* Model */,
+				4D71531B2615DCEE00B17513 /* Service */,
+				4D7153182615DCC400B17513 /* View */,
+				4D71531A2615DCE400B17513 /* ViewModel */,
+				4D7152F32615DC4F00B17513 /* Info.plist */,
+				4D7152E52615DC4B00B17513 /* AppDelegate.swift */,
+				4D7152E72615DC4B00B17513 /* SceneDelegate.swift */,
+				4D7152EE2615DC4F00B17513 /* Assets.xcassets */,
+				4D7152F02615DC4F00B17513 /* LaunchScreen.storyboard */,
+				4D7152EB2615DC4B00B17513 /* Main.storyboard */,
+			);
+			path = NVUnsplash;
+			sourceTree = "<group>";
+		};
+		4D7152FB2615DC4F00B17513 /* NVUnsplashTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D7B4BB726170B6B00934C00 /* ViewModel Tests */,
+				4D7B4BA42617095400934C00 /* Mocks */,
+				4D7B4BA32617094900934C00 /* Parser Tests */,
+				4D7B4B9A2617083500934C00 /* Service Tests */,
+				4D7152FC2615DC4F00B17513 /* NVUnsplashTests.swift */,
+				4D7152FE2615DC4F00B17513 /* Info.plist */,
+				4D7B4BB226170A9100934C00 /* NVPhotoDataSourceTests.swift */,
+			);
+			path = NVUnsplashTests;
+			sourceTree = "<group>";
+		};
+		4D7153062615DC4F00B17513 /* NVUnsplashUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4D7153072615DC4F00B17513 /* NVUnsplashUITests.swift */,
+				4D7153092615DC4F00B17513 /* Info.plist */,
+			);
+			path = NVUnsplashUITests;
+			sourceTree = "<group>";
+		};
+		4D7153182615DCC400B17513 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4D71531D2615DD2B00B17513 /* Controllers */,
+				4D71531E2615DD3500B17513 /* Custom Cells */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4D7153192615DCDD00B17513 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4D7153542615E2FF00B17513 /* NVPhotoModel.swift */,
+				4D7153902615EFF600B17513 /* NVAlbumModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4D71531A2615DCE400B17513 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4D7153252615DD8D00B17513 /* DataSource */,
+				4D71539A2615F2F300B17513 /* NVAlbumViewModel.swift */,
+				4D7153772615E63600B17513 /* NVPhotoViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4D71531B2615DCEE00B17513 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				4D7153272615DDC900B17513 /* Network */,
+				4D7153262615DDC100B17513 /* Parser */,
+				4D7153282615DDD700B17513 /* Result */,
+				4D71539F2615F33300B17513 /* NVAlbumService.swift */,
+				4D71537C2615E68500B17513 /* NVPhotoService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		4D71531C2615DD1000B17513 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				4D71534F2615E1D100B17513 /* Reachability.swift */,
+				4D7B4B772615F9C100934C00 /* NVAlertController.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		4D71531D2615DD2B00B17513 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4D7B4B8C2616E74F00934C00 /* Delegates */,
+				4D71538B2615EF1B00B17513 /* NVAlbumViewController.swift */,
+				4D7153812615E73300B17513 /* NVPhotoViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4D71531E2615DD3500B17513 /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				4D71535D2615E43D00B17513 /* NVPhotoCell.swift */,
+				4D7153862615EE2100B17513 /* NVAlbumCell.swift */,
+			);
+			path = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		4D7153252615DD8D00B17513 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				4D7153652615E53F00B17513 /* NVDynamicValue.swift */,
+				4D71536A2615E55A00B17513 /* NVGenericDataSource.swift */,
+				4D71536F2615E58700B17513 /* NVPhotoDataSource.swift */,
+				4D7153952615F11800B17513 /* NVAlbumDataSource.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		4D7153262615DDC100B17513 /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				4D71533B2615E02500B17513 /* NVParserHelper.swift */,
+			);
+			path = Parser;
+			sourceTree = "<group>";
+		};
+		4D7153272615DDC900B17513 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				4D7153402615E12600B17513 /* NVRequestFactory.swift */,
+				4D7153452615E14B00B17513 /* NVRequestService.swift */,
+				4D71534A2615E16B00B17513 /* NVRequestHandler.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		4D7153282615DDD700B17513 /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				4D7153362615DFCE00B17513 /* NVError.swift */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
+		4D7B4B8C2616E74F00934C00 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				4D7B4B8D2616E76200934C00 /* NVAlbumViewControllerDelegate.swift */,
+				4D7B4B952616E77B00934C00 /* NVPhotoViewControllerDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		4D7B4B9A2617083500934C00 /* Service Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4D7B4B9B2617085700934C00 /* NVPhotoServiceTests.swift */,
+				4D7B4BFB2617200D00934C00 /* NVAlbumServiceTests.swift */,
+			);
+			path = "Service Tests";
+			sourceTree = "<group>";
+		};
+		4D7B4BA32617094900934C00 /* Parser Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4D7B4BA52617096F00934C00 /* NVParserHelperTests.swift */,
+			);
+			path = "Parser Tests";
+			sourceTree = "<group>";
+		};
+		4D7B4BA42617095400934C00 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				4D7B4BD926170CAD00934C00 /* Controllers */,
+				4D7B4BD026170C3500934C00 /* ViewModels */,
+				4D7B4BCF26170C2900934C00 /* Services */,
+				4D7B4BC026170B9400934C00 /* Mock JSON */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		4D7B4BB726170B6B00934C00 /* ViewModel Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4D7B4BB826170B7E00934C00 /* NVPhotoViewModelTests.swift */,
+				4D7B4BF626171BE900934C00 /* NVAlbumViewModelTests.swift */,
+			);
+			path = "ViewModel Tests";
+			sourceTree = "<group>";
+		};
+		4D7B4BC026170B9400934C00 /* Mock JSON */ = {
+			isa = PBXGroup;
+			children = (
+				4D7B4BC726170BBA00934C00 /* photo_mock.json */,
+			);
+			path = "Mock JSON";
+			sourceTree = "<group>";
+		};
+		4D7B4BCF26170C2900934C00 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4D7B4BD126170C5300934C00 /* NVPhotoServiceMock.swift */,
+				4D7B4BDA26170CD800934C00 /* NVAlbumServiceMock.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		4D7B4BD026170C3500934C00 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				4D7B4BE226170D7D00934C00 /* NVPhotoViewModelMock.swift */,
+				4D7B4BE726170E3700934C00 /* NVAlbumViewModelMock.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		4D7B4BD926170CAD00934C00 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4D7B4BEC26170EB600934C00 /* NVPhotoViewControllerMock.swift */,
+				4D7B4BF126170F2100934C00 /* NVAlbumViewControllerMock.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		ADFD42DE9AD080F618A644E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6949668C38205C83D85647F3 /* Pods-NVUnsplash.debug.xcconfig */,
+				20F41EFB91F686FEE84E68DD /* Pods-NVUnsplash.release.xcconfig */,
+				F6D2F88E1CCE95E58EF93B16 /* Pods-NVUnsplash-NVUnsplashUITests.debug.xcconfig */,
+				C94FF7A6574F11E25DAA56D0 /* Pods-NVUnsplash-NVUnsplashUITests.release.xcconfig */,
+				C86C48561D9E583F2143A044 /* Pods-NVUnsplashTests.debug.xcconfig */,
+				15F37F827956B0853176C3EE /* Pods-NVUnsplashTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D7152E12615DC4B00B17513 /* NVUnsplash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D71530C2615DC4F00B17513 /* Build configuration list for PBXNativeTarget "NVUnsplash" */;
+			buildPhases = (
+				4B310E08C62FA39831829897 /* [CP] Check Pods Manifest.lock */,
+				4D7152DE2615DC4B00B17513 /* Sources */,
+				4D7152DF2615DC4B00B17513 /* Frameworks */,
+				4D7152E02615DC4B00B17513 /* Resources */,
+				2CBA9A83BFECF2B341B46BF6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NVUnsplash;
+			productName = NVUnsplash;
+			productReference = 4D7152E22615DC4B00B17513 /* NVUnsplash.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D7152F72615DC4F00B17513 /* NVUnsplashTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D71530F2615DC4F00B17513 /* Build configuration list for PBXNativeTarget "NVUnsplashTests" */;
+			buildPhases = (
+				EB1115E3F8DB0293B0F7437B /* [CP] Check Pods Manifest.lock */,
+				4D7152F42615DC4F00B17513 /* Sources */,
+				4D7152F52615DC4F00B17513 /* Frameworks */,
+				4D7152F62615DC4F00B17513 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D7152FA2615DC4F00B17513 /* PBXTargetDependency */,
+			);
+			name = NVUnsplashTests;
+			productName = NVUnsplashTests;
+			productReference = 4D7152F82615DC4F00B17513 /* NVUnsplashTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4D7153022615DC4F00B17513 /* NVUnsplashUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D7153122615DC4F00B17513 /* Build configuration list for PBXNativeTarget "NVUnsplashUITests" */;
+			buildPhases = (
+				14D456CC7CA574AEE1A4081C /* [CP] Check Pods Manifest.lock */,
+				4D7152FF2615DC4F00B17513 /* Sources */,
+				4D7153002615DC4F00B17513 /* Frameworks */,
+				4D7153012615DC4F00B17513 /* Resources */,
+				C9F3F5C4D78D5A0C3AF52DEB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D7153052615DC4F00B17513 /* PBXTargetDependency */,
+			);
+			name = NVUnsplashUITests;
+			productName = NVUnsplashUITests;
+			productReference = 4D7153032615DC4F00B17513 /* NVUnsplashUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D7152DA2615DC4B00B17513 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					4D7152E12615DC4B00B17513 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					4D7152F72615DC4F00B17513 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 4D7152E12615DC4B00B17513;
+					};
+					4D7153022615DC4F00B17513 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 4D7152E12615DC4B00B17513;
+					};
+				};
+			};
+			buildConfigurationList = 4D7152DD2615DC4B00B17513 /* Build configuration list for PBXProject "NVUnsplash" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D7152D92615DC4B00B17513;
+			productRefGroup = 4D7152E32615DC4B00B17513 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D7152E12615DC4B00B17513 /* NVUnsplash */,
+				4D7152F72615DC4F00B17513 /* NVUnsplashTests */,
+				4D7153022615DC4F00B17513 /* NVUnsplashUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D7152E02615DC4B00B17513 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D7152F22615DC4F00B17513 /* LaunchScreen.storyboard in Resources */,
+				4D7152EF2615DC4F00B17513 /* Assets.xcassets in Resources */,
+				4D7152ED2615DC4B00B17513 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D7152F62615DC4F00B17513 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D7B4BC826170BBA00934C00 /* photo_mock.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D7153012615DC4F00B17513 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14D456CC7CA574AEE1A4081C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NVUnsplash-NVUnsplashUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2CBA9A83BFECF2B341B46BF6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NVUnsplash/Pods-NVUnsplash-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NVUnsplash/Pods-NVUnsplash-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NVUnsplash/Pods-NVUnsplash-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B310E08C62FA39831829897 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NVUnsplash-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9F3F5C4D78D5A0C3AF52DEB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NVUnsplash-NVUnsplashUITests/Pods-NVUnsplash-NVUnsplashUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NVUnsplash-NVUnsplashUITests/Pods-NVUnsplash-NVUnsplashUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NVUnsplash-NVUnsplashUITests/Pods-NVUnsplash-NVUnsplashUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB1115E3F8DB0293B0F7437B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NVUnsplashTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D7152DE2615DC4B00B17513 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D71536B2615E55A00B17513 /* NVGenericDataSource.swift in Sources */,
+				4D71533C2615E02500B17513 /* NVParserHelper.swift in Sources */,
+				4D7153662615E53F00B17513 /* NVDynamicValue.swift in Sources */,
+				4D7153822615E73300B17513 /* NVPhotoViewController.swift in Sources */,
+				4D7B4B962616E77B00934C00 /* NVPhotoViewControllerDelegate.swift in Sources */,
+				4D71537D2615E68500B17513 /* NVPhotoService.swift in Sources */,
+				4D7B4B782615F9C100934C00 /* NVAlertController.swift in Sources */,
+				4D7153702615E58700B17513 /* NVPhotoDataSource.swift in Sources */,
+				4D7153962615F11800B17513 /* NVAlbumDataSource.swift in Sources */,
+				4D7153A02615F33300B17513 /* NVAlbumService.swift in Sources */,
+				4D71534B2615E16B00B17513 /* NVRequestHandler.swift in Sources */,
+				4D71539B2615F2F300B17513 /* NVAlbumViewModel.swift in Sources */,
+				4D7153872615EE2100B17513 /* NVAlbumCell.swift in Sources */,
+				4D7153462615E14B00B17513 /* NVRequestService.swift in Sources */,
+				4D7B4B7D2616335E00934C00 /* NVConstants.swift in Sources */,
+				4D7153372615DFCE00B17513 /* NVError.swift in Sources */,
+				4D7152E62615DC4B00B17513 /* AppDelegate.swift in Sources */,
+				4D7153912615EFF600B17513 /* NVAlbumModel.swift in Sources */,
+				4D71535E2615E43D00B17513 /* NVPhotoCell.swift in Sources */,
+				4D7153782615E63600B17513 /* NVPhotoViewModel.swift in Sources */,
+				4D7153552615E2FF00B17513 /* NVPhotoModel.swift in Sources */,
+				4D71538C2615EF1B00B17513 /* NVAlbumViewController.swift in Sources */,
+				4D7153412615E12600B17513 /* NVRequestFactory.swift in Sources */,
+				4D7B4B8E2616E76200934C00 /* NVAlbumViewControllerDelegate.swift in Sources */,
+				4D7153502615E1D100B17513 /* Reachability.swift in Sources */,
+				4D7152E82615DC4B00B17513 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D7152F42615DC4F00B17513 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D7B4BD226170C5300934C00 /* NVPhotoServiceMock.swift in Sources */,
+				4D7B4BE326170D7D00934C00 /* NVPhotoViewModelMock.swift in Sources */,
+				4D7B4BE826170E3700934C00 /* NVAlbumViewModelMock.swift in Sources */,
+				4D7B4BED26170EB600934C00 /* NVPhotoViewControllerMock.swift in Sources */,
+				4D7B4B9C2617085700934C00 /* NVPhotoServiceTests.swift in Sources */,
+				4D7152FD2615DC4F00B17513 /* NVUnsplashTests.swift in Sources */,
+				4D7B4BF726171BE900934C00 /* NVAlbumViewModelTests.swift in Sources */,
+				4D7B4BA62617096F00934C00 /* NVParserHelperTests.swift in Sources */,
+				4D7B4BFC2617200D00934C00 /* NVAlbumServiceTests.swift in Sources */,
+				4D7B4BDB26170CD800934C00 /* NVAlbumServiceMock.swift in Sources */,
+				4D7B4BF226170F2100934C00 /* NVAlbumViewControllerMock.swift in Sources */,
+				4D7B4BB926170B7E00934C00 /* NVPhotoViewModelTests.swift in Sources */,
+				4D7B4BB326170A9100934C00 /* NVPhotoDataSourceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D7152FF2615DC4F00B17513 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D7153082615DC4F00B17513 /* NVUnsplashUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D7152FA2615DC4F00B17513 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D7152E12615DC4B00B17513 /* NVUnsplash */;
+			targetProxy = 4D7152F92615DC4F00B17513 /* PBXContainerItemProxy */;
+		};
+		4D7153052615DC4F00B17513 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D7152E12615DC4B00B17513 /* NVUnsplash */;
+			targetProxy = 4D7153042615DC4F00B17513 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D7152EB2615DC4B00B17513 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D7152EC2615DC4B00B17513 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4D7152F02615DC4F00B17513 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D7152F12615DC4F00B17513 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D71530A2615DC4F00B17513 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4D71530B2615DC4F00B17513 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D71530D2615DC4F00B17513 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6949668C38205C83D85647F3 /* Pods-NVUnsplash.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NVUnsplash/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nv.unsplash.NVUnsplash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4D71530E2615DC4F00B17513 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20F41EFB91F686FEE84E68DD /* Pods-NVUnsplash.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NVUnsplash/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nv.unsplash.NVUnsplash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		4D7153102615DC4F00B17513 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C86C48561D9E583F2143A044 /* Pods-NVUnsplashTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NVUnsplashTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nv.unsplash.NVUnsplashTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NVUnsplash.app/NVUnsplash";
+			};
+			name = Debug;
+		};
+		4D7153112615DC4F00B17513 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15F37F827956B0853176C3EE /* Pods-NVUnsplashTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NVUnsplashTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nv.unsplash.NVUnsplashTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NVUnsplash.app/NVUnsplash";
+			};
+			name = Release;
+		};
+		4D7153132615DC4F00B17513 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6D2F88E1CCE95E58EF93B16 /* Pods-NVUnsplash-NVUnsplashUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NVUnsplashUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nv.unsplash.NVUnsplashUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NVUnsplash;
+			};
+			name = Debug;
+		};
+		4D7153142615DC4F00B17513 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C94FF7A6574F11E25DAA56D0 /* Pods-NVUnsplash-NVUnsplashUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NVUnsplashUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nv.unsplash.NVUnsplashUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NVUnsplash;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D7152DD2615DC4B00B17513 /* Build configuration list for PBXProject "NVUnsplash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D71530A2615DC4F00B17513 /* Debug */,
+				4D71530B2615DC4F00B17513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D71530C2615DC4F00B17513 /* Build configuration list for PBXNativeTarget "NVUnsplash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D71530D2615DC4F00B17513 /* Debug */,
+				4D71530E2615DC4F00B17513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D71530F2615DC4F00B17513 /* Build configuration list for PBXNativeTarget "NVUnsplashTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D7153102615DC4F00B17513 /* Debug */,
+				4D7153112615DC4F00B17513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D7153122615DC4F00B17513 /* Build configuration list for PBXNativeTarget "NVUnsplashUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D7153132615DC4F00B17513 /* Debug */,
+				4D7153142615DC4F00B17513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D7152DA2615DC4B00B17513 /* Project object */;
+}
